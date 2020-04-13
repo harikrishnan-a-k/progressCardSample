@@ -5,13 +5,13 @@ document.querySelector('#generateCard').addEventListener('click',function(e){
     const data=[];
     let name=document.querySelector('#name').value;
     document.querySelector('#cardName').innerText=name;
-    data.push(name);
+    
     let classname =document.querySelector('#class').value;
     document.querySelector('#cardClass').innerText=classname;
-    data.push(classname);
+    
     let rollNo=document.querySelector('#rollNo').value;
     document.querySelector('#cardReg').innerText=rollNo;
-    data.push(rollNo);
+    
     let mark1=parseInt(document.querySelector('#mark1').value);
     document.querySelector('#cardSub1').innerText=mark1;
     let mark2=parseInt(document.querySelector('#mark2').value);
