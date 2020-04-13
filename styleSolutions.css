@@ -1,21 +1,19 @@
 /* You can write your codes here  */
-html{
-    position: relative;
-}
+
 .cardContainer{
-    position: absolute;
-    top: 20px;
-    right: 100px;
+    
     background-color: grey;
-    min-height: 400px;
-    min-width: 500px;
+    /* min-height: 400px;
+    min-width: 500px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .card{
     margin:50px;
     background-color: white;
     border: 5px solid rgb(231, 8, 176);
-    min-height: 200px;
-    min-width: 400px;
+    /* min-height: 200px;
+    min-width: 400px; */
     padding: 20px;
 }
 .card .mainhead{
@@ -38,4 +36,8 @@ ul li span{
 }
 ul li{
     margin-bottom: 20px;
+}
+
+form{
+    margin-top: 30px;
 }
