@@ -32,5 +32,6 @@ document.querySelector('#generateCard').addEventListener('click',function(e){
     else{
         avgSpan.classList.add('great');
     }
+    document.querySelector('.card').style.display="block"
 
 })
