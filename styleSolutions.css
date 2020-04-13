@@ -1,0 +1,41 @@
+/* You can write your codes here  */
+html{
+    position: relative;
+}
+.cardContainer{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    background-color: grey;
+    min-height: 400px;
+    min-width: 500px;
+}
+.card{
+    margin:50px;
+    background-color: white;
+    border: 5px solid rgb(231, 8, 176);
+    min-height: 200px;
+    min-width: 400px;
+    padding: 20px;
+}
+.card .mainhead{
+    text-align: center;
+    color: rgb(16, 170, 175);
+}
+#averageMark.poor{
+    color:red;
+
+}
+#averageMark.medium{
+    color:rgb(9, 255, 0);
+    
+}#averageMark.great{
+    color:rgb(17, 0, 255);
+    
+}
+ul li span{
+    color: rgb(219, 39, 219);
+}
+ul li{
+    margin-bottom: 20px;
+}
